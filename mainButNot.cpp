@@ -5,15 +5,18 @@
 
 using namespace std;
 
-void resultsEuro();
-void resultsYen();
-void resultsPounds();
-void resultsCad();
+int convertToUsd();
+int convertToCad();
+int convertToEuro();
+int convertToPounds();
+int convertToYen();
 int restart();
 
 
 int mainButNot()
 {
+	system("Color 0B");
+
 	int choice1;
 	bool choices = true;
 	while (choices != false) {
@@ -23,19 +26,22 @@ int mainButNot()
 		cout << "\n";
 		cout << "--------------------------------------------------------\n";
 		cout << "\n";
-		cout << "Choose the currency of your choice. (Only Converts the currency of your choosing to usd)\n";
+		cout << "Choose the currency to convert to.\n";
 		Sleep(200);
 		cout << "\n";
-		cout << "1 - Euro\n";
+		cout << "1 - USD\n";
 		cout << "\n";
 		Sleep(200);
-		cout << "2 - Japenese Yen\n";
+		cout << "2 - Canadian Dollar\n";
 		cout << "\n";
 		Sleep(200);
-		cout << "3 - British Pound\n";
+		cout << "3 - Euro\n";
 		cout << "\n";
 		Sleep(200);
-		cout << "4 - Canadian Dollar\n";
+		cout << "4 - British Pound\n";
+		cout << "\n";
+		Sleep(200);
+		cout << "5 - Japanese Yen\n";
 		cout << "\n";
 		Sleep(200);
 		cout << "Enter Here:  ";
@@ -45,30 +51,27 @@ int mainButNot()
 		switch (choice1) {
 		case 1:
 			cout << '\n';
-			cout << "Euro!";
-			cout << '\n';
-			resultsEuro();
+			convertToUsd();
 			restart();
 			break;
 		case 2:
 			cout << "\n";
-			cout << "Yen!";
-			cout << "\n";
-			resultsYen();
+			convertToCad();
 			restart();
 			break;
 		case 3:
 			cout << "\n";
-			cout << "Pounds!";
-			cout << "\n";
-			resultsPounds();
+			convertToEuro();
 			restart();
 			break;
 		case 4:
 			cout << "\n";
-			cout << "Canadian Dollar!";
+			convertToPounds();
+			restart();
+			break;
+		case 5:
 			cout << "\n";
-			resultsCad();
+			convertToYen();
 			restart();
 			break;
 		default:

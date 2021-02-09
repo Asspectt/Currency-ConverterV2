@@ -21,13 +21,25 @@
     <ClCompile Include="inputs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="answers.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="restart.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="mainButNot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Usd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Euro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pounds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JapaneseYen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -139,9 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Cad.cpp" />
+    <ClCompile Include="Euro.cpp" />
+    <ClCompile Include="JapaneseYen.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="inputs.cpp" />
-    <ClCompile Include="answers.cpp" />
+    <ClCompile Include="Pounds.cpp" />
+    <ClCompile Include="Usd.cpp" />
     <ClCompile Include="restart.cpp" />
     <ClCompile Include="mainButNot.cpp" />
   </ItemGroup>
