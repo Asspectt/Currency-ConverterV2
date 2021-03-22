@@ -1,4 +1,7 @@
-# Currency-ConverterV2
+# READ THIS
  Just a Currency Converter
-Will update it soon
-use this for learning if you want to!
+YOU NEED EXTERNAL DEPENDENDCIES
+Tutorial FOR THIS TO WORK
+https://youtu.be/gcifiyXxhSU
+needs discord rpc SDK for c++
+rapid json.
