@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\SDK">
+      <UniqueIdentifier>{c3f14f22-9c59-4e21-a75b-af24bf72f3dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Class">
+      <UniqueIdentifier>{c7ebab4f-9709-4d55-9e73-7f2f4bf092da}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -42,19 +48,61 @@
     <ClCompile Include="JapaneseYen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\discord-rpc-master\src\connection_win.cpp">
+      <Filter>Resource Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\discord-rpc-master\src\discord_register_win.cpp">
+      <Filter>Resource Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\discord-rpc-master\src\discord_rpc.cpp">
+      <Filter>Resource Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\discord-rpc-master\src\dllmain.cpp">
+      <Filter>Resource Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\discord-rpc-master\src\rpc_connection.cpp">
+      <Filter>Resource Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\discord-rpc-master\src\serialization.cpp">
+      <Filter>Resource Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord.cpp">
+      <Filter>Resource Files\Class</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\discord-rpc-master\src\backoff.h">
+      <Filter>Resource Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\discord-rpc-master\src\msg_queue.h">
+      <Filter>Resource Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\discord-rpc-master\src\rpc_connection.h">
+      <Filter>Resource Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\discord-rpc-master\src\serialization.h">
+      <Filter>Resource Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord.h">
+      <Filter>Resource Files\Class</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Resource.rc">
+    <ResourceCompile Include="Currency Converter.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="icon1.ico">
+    <Image Include="..\..\..\..\Desktop\Currency-stuff.ico">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

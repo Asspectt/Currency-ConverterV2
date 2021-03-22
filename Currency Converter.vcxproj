@@ -75,6 +75,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\jaxon\Desktop\rapidjson-1.1.0\include;C:\Users\jaxon\Desktop\discord-rpc-master\src;C:\Users\jaxon\Desktop\discord-rpc-master\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -139,7 +140,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\Desktop\discord-rpc-master\src\connection_win.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\discord-rpc-master\src\discord_register_win.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\discord-rpc-master\src\discord_rpc.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\discord-rpc-master\src\dllmain.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\discord-rpc-master\src\rpc_connection.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\discord-rpc-master\src\serialization.cpp" />
     <ClCompile Include="Cad.cpp" />
+    <ClCompile Include="Discord.cpp" />
     <ClCompile Include="Euro.cpp" />
     <ClCompile Include="JapaneseYen.cpp" />
     <ClCompile Include="main.cpp" />
@@ -150,13 +158,20 @@
     <ClCompile Include="mainButNot.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\Desktop\discord-rpc-master\src\backoff.h" />
+    <ClInclude Include="..\..\..\..\Desktop\discord-rpc-master\src\msg_queue.h" />
+    <ClInclude Include="..\..\..\..\Desktop\discord-rpc-master\src\rpc_connection.h" />
+    <ClInclude Include="..\..\..\..\Desktop\discord-rpc-master\src\serialization.h" />
+    <ClInclude Include="Discord.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="resource2.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Resource.rc" />
+    <ResourceCompile Include="Currency Converter.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="icon1.ico" />
+    <Image Include="..\..\..\..\Desktop\Currency-stuff.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

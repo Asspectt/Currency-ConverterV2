@@ -13,11 +13,13 @@ int convertToYen();
 int restart();
 
 
+
 int mainButNot()
 {
 	system("Color 0B");
 
 	int choice1;
+	
 	bool choices = true;
 	while (choices != false) {
 		cout << "--------------------------------------------------------\n";
@@ -78,7 +80,10 @@ int mainButNot()
 			cout << "\nNot a Valid Choice. \n";
 			cout << "Choose Again.\n";
 			cout << "\n";
-			break;
+			return mainButNot();
+			
+			
+
 
 		}
 
